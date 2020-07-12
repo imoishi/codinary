@@ -1,0 +1,52 @@
+
+@import 'utilities';
+@import 'config';
+
+//general style
+
+*{
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: $light-color;
+}
+a{
+  text-decoration: none;
+  color: $main-color;
+}
+
+ul{
+  list-style: none;
+}
+
+
+// #logo{
+//   width: 300px;
+//   height: 250px;
+//   // margin-top: 0;
+//   // padding-top: 0;
+// }
+
+
+
+#main-nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  background: $dark-color;
+
+  ul{
+    display: flex;
+  }
+
+  li{
+    padding: 1rem 1.5rem;
+  }
+
+  
+}

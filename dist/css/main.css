@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: #EFEDED; }
+
+a {
+  text-decoration: none;
+  color: #F0353D; }
+
+ul {
+  list-style: none; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  background: #1D2127; }
+  #main-nav ul {
+    display: flex; }
+  #main-nav li {
+    padding: 1rem 1.5rem; }
+
+/*# sourceMappingURL=main.css.map */
