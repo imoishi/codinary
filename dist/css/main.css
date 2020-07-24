@@ -12,6 +12,9 @@ img {
   padding: 0 0 1.5rem 0;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
+.current {
+  color: #FBB239; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -49,7 +52,9 @@ ul {
 .articles-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem; }
+  grid-gap: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
 
 article img {
   height: 200px;
@@ -58,5 +63,79 @@ article .text-item {
   padding-left: 1rem; }
   article .text-item a {
     color: #1D2127; }
+
+#page {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #page .page-number {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center; }
+    #page .page-number a {
+      color: #1D2127; }
+      #page .page-number a:hover {
+        color: #F0353D; }
+
+#main-contact {
+  padding: 1rem;
+  margin: 5rem;
+  text-align: center; }
+  #main-contact .welcome {
+    background: #1D2127;
+    color: #EFEDED;
+    padding: 2rem; }
+    #main-contact .welcome h2 {
+      padding-bottom: 2rem; }
+  #main-contact form {
+    background: #fff;
+    padding: 2rem;
+    text-align: left; }
+    #main-contact form .text-fields {
+      padding-bottom: 1rem; }
+      #main-contact form .text-fields h2 {
+        padding-bottom: 2rem;
+        color: #F0353D; }
+      #main-contact form .text-fields .email-input {
+        border: none;
+        border-bottom: 2px #C8C8C8 solid;
+        margin-bottom: 1rem; }
+      #main-contact form .text-fields .password-input {
+        border: none;
+        border-bottom: 2px #C8C8C8 solid;
+        margin-bottom: 1rem; }
+      #main-contact form .text-fields .text-input {
+        padding-bottom: 0.5rem; }
+    #main-contact form .btn {
+      padding: 0.75rem 2rem;
+      background: #fff;
+      color: #F0353D;
+      border: 1px #F0353D solid;
+      border-radius: 5px;
+      margin-right: 1rem; }
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 15rem 0 15rem; }
+
+#main-footer {
+  background: #1D2127;
+  text-align: center;
+  padding-top: 2rem; }
+  #main-footer h1 {
+    color: #EFEDED; }
+  #main-footer .big-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem; }
+    #main-footer .big-footer ul {
+      display: flex; }
+    #main-footer .big-footer li {
+      padding: 1rem 1rem; }
+  #main-footer .end-footer {
+    padding: 0.75rem;
+    border-top: 1px #ddd dotted;
+    color: #EFEDED; }
 
 /*# sourceMappingURL=main.css.map */
