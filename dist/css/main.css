@@ -12,6 +12,11 @@ img {
   padding: 0 0 1.5rem 0;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
+.card-page {
+  background: #fff;
+  padding: 0 0 1.5rem 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
+
 .current {
   color: #FBB239; }
 
@@ -77,36 +82,36 @@ article .text-item {
       #page .page-number a:hover {
         color: #F0353D; }
 
-#main-contact {
+#main-login {
   padding: 1rem;
   margin: 5rem;
   text-align: center; }
-  #main-contact .welcome {
+  #main-login .welcome {
     background: #1D2127;
     color: #EFEDED;
     padding: 2rem; }
-    #main-contact .welcome h2 {
+    #main-login .welcome h2 {
       padding-bottom: 2rem; }
-  #main-contact form {
+  #main-login form {
     background: #fff;
     padding: 2rem;
     text-align: left; }
-    #main-contact form .text-fields {
+    #main-login form .login-fields {
       padding-bottom: 1rem; }
-      #main-contact form .text-fields h2 {
+      #main-login form .login-fields h2 {
         padding-bottom: 2rem;
         color: #F0353D; }
-      #main-contact form .text-fields .email-input {
+      #main-login form .login-fields .email-input {
         border: none;
         border-bottom: 2px #C8C8C8 solid;
         margin-bottom: 1rem; }
-      #main-contact form .text-fields .password-input {
+      #main-login form .login-fields .password-input {
         border: none;
         border-bottom: 2px #C8C8C8 solid;
         margin-bottom: 1rem; }
-      #main-contact form .text-fields .text-input {
+      #main-login form .login-fields .text-input {
         padding-bottom: 0.5rem; }
-    #main-contact form .btn {
+    #main-login form .btn {
       padding: 0.75rem 2rem;
       background: #fff;
       color: #F0353D;
@@ -114,10 +119,79 @@ article .text-item {
       border-radius: 5px;
       margin-right: 1rem; }
 
-.contact-container {
+.login-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 15rem 0 15rem; }
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 15rem 1rem 15rem; }
+
+#main-contact {
+  margin: 2rem 7rem 2rem 7rem;
+  padding: 1rem;
+  text-align: center; }
+  #main-contact .contact-container {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem; }
+  #main-contact .contact-text {
+    background: #1D2127;
+    color: #EFEDED;
+    padding: 2rem; }
+    #main-contact .contact-text h2 {
+      padding-bottom: 1rem; }
+  #main-contact form {
+    background: #fff;
+    padding: 3rem; }
+    #main-contact form .text-fields {
+      text-align: left; }
+      #main-contact form .text-fields .name-input {
+        border: none;
+        border-bottom: 2px #C8C8C8 solid;
+        margin-bottom: 1rem; }
+      #main-contact form .text-fields .email-input {
+        border: none;
+        border-bottom: 2px #C8C8C8 solid;
+        margin-bottom: 1rem; }
+      #main-contact form .text-fields .phone-number-input {
+        border: none;
+        border-bottom: 2px #C8C8C8 solid;
+        margin-bottom: 1rem; }
+      #main-contact form .text-fields .message-input {
+        border: none;
+        border-bottom: 2px #C8C8C8 solid;
+        margin-bottom: 2rem;
+        height: 3rem; }
+      #main-contact form .text-fields .text-input {
+        width: 100%;
+        padding-bottom: 0.75rem; }
+    #main-contact form .contact-btn {
+      padding: 0.75rem 2rem;
+      background: #fff;
+      color: #F0353D;
+      border: 1px #F0353D solid;
+      border-radius: 5px;
+      width: 70%; }
+
+#single-page {
+  margin: 2rem; }
+
+.page-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1rem 0 1rem 0;
+  grid-gap: 1rem;
+  background: #fff;
+  align-items: center;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
+  .page-container :last-child {
+    grid-column: 2 / span 3; }
+  .page-container .card-text {
+    padding: 1rem; }
+  .page-container h3 {
+    padding-bottom: 1rem; }
+    .page-container h3 a {
+      color: #1D2127; }
+  .page-container h4 {
+    color: #F0353D; }
 
 #main-footer {
   background: #1D2127;
